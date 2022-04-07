@@ -1,0 +1,58 @@
+/* Style Sheet If You Build It (table), They Will Come */
+/* Name: Nayeli Zapata Reyes. April 07, 2022 */
+
+/* Gradient target HTML body element tag */
+body{
+    background: linear-gradient(to right, rgb(48, 161, 161), pink);
+    font-size: 1.2em;
+
+}
+
+/* css target tableStyle class in HTML */
+.tableStyle{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .75);
+    margin:45px auto;
+    background-color: rgb(173, 149, 175);
+    width: 85%;
+}
+
+/* css target HTML Table caption tag */
+.tableStyle caption{
+    color: white;
+    font-size: 1.4em;
+}
+
+
+
+/* css target HTML Table thead tag */
+.tableStyle thead{
+color: black;
+background-color: white;
+font-size: 1em;
+
+}
+ 
+ 
+ 
+/* css target HTML Table tfoot tag */
+.tableStyle tfoot{
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+ 
+ 
+ 
+/* Add a pseudo-class selector (page 320) */ /* For example --  :nth-child(even)       */
+.tableStyle tbody tr:nth-child(even){
+background-color: lavender;
+}
+
+/* use colgroup */
+colgroup.pink {
+	background-color: pink;
+} 
+
+
+/* Week 3, Wednesday Video Lesson Chapter 8 folder - Table Column Group, page 173 */
+
