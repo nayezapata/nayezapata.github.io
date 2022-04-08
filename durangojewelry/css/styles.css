@@ -1,0 +1,83 @@
+
+/*Nayeli Zapta Reyes. April 8, 2022. */
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('quicksand-regular-webfont.woff2') format('woff2'),
+         url('quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+	 
+#outerwrapper {	
+
+	border-radius: 15%;  /*come back*/
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15%;
+}
+html{  
+	/*background-image:url(/images/jewelry.jpg);   /*come back*/
+	background-image:url('../images/jewelry.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	
+	
+}
+
+footer{
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+}
+
+main{
+	background: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family:quicksandregular, Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+img{
+	float: left;
+	border-radius: 100px;
+}
+
+nav ul li{
+	list-style: none;
+	font-size: 1.5em;
+	float: none;
+	
+}
+
+h1{
+	font-family: 'Pacifico', cursive, sans-serif;
+	font-size: 4em;
+}
+
+h2{
+font-family: robotoregular, Arial, Helvetica, sans-serif;
+font-style: italic;
+font-size: 2em;
+}
+
+
+
+
+
+
+
