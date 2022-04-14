@@ -1,0 +1,47 @@
+/*Personal Portfolio Project
+    Author:Nayeli Zapata Reyes. 
+    Date:April 14, 2022.*/
+@font-face {
+    font-family: 'amaranthregular';
+    src: url('amaranth-regular-webfont.woff2') format('woff2'),
+         url('amaranth-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+table{
+font-size: 1em;
+margin: auto;
+}
+
+caption{
+font-family:amaranthregular, Arial, Helvetica, sans-serif ;
+font-weight: bold;
+font-size:1.5em;
+padding: 15px 0 2px 0;
+}
+
+table td, th{
+    border: solid 1px black;
+    padding: 8px 8px 8px 1px;
+}
+
+thead{
+background-color: #94e6d483;
+}
+
+tbody{
+font-family: amaranthregular, Arial, Helvetica, sans-serif;
+text-align: left;
+}
+
+tfoot{
+font-size: .85em;
+text-align: center;
+}
+
+tfoot, a:link, a:visited{
+    color: black;
+    
+}
+
