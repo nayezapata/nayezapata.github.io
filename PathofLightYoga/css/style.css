@@ -1,0 +1,96 @@
+/*Name: Nayeli Zapata Reyes.
+  Date: April 22, 2022. 
+*/ 
+
+/*
+**************************************
+mobile design
+**************************************
+*/
+
+main li{
+    list-style-image: url(../images/yogabullet.png);
+    margin: 3em;
+}
+
+.schedule {
+    border-collapse: collapse;
+    border: solid black 1px;
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+table td {
+    border: solid black 1px;
+    text-align: center;
+}
+
+address {
+    margin-bottom: .5em;
+}
+
+footer {
+    background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+    padding: .5em ; 
+}
+
+body {
+    background-image: url(../images/yogamobile.png);
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;    
+}
+
+header {
+    background-color: #9BC1C2;
+    margin:10px 0 10px 0;
+    padding: .5em;
+}
+
+nav {
+    display: block;
+    font-weight: bold;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: none;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.door{
+    float: right;
+}
+
+/*
+*************************************************
+Tablet Design: min-width 641px
+*************************************************
+*/
+
+@media screen and (min-width: 641px) {
+    nav ul li {display: inline;}
+    body {background: #f5f5f5;}
+    img {display:block;}
+
+    header { 
+        background-color: #9BC1C2; 
+        background-image: url(../images/lilyheader.jpg);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    
+}
+
