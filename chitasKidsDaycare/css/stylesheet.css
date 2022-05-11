@@ -1,0 +1,71 @@
+/* Name:Nayeli Zapata Reyes. Date: May 11, 2022.*/
+
+.outerwrapper{
+background-image: url(../images/ballons.png);
+background-size: contain;
+background-attachment: fixed;
+}
+
+.bg-pink{
+    background-color: #F899A4;
+}
+
+.bg-lightgreen {
+    background-color: #B0D989;
+    border-radius: 2em 20em; 
+}
+
+.bg-purple {
+    background-color: #B788E2;
+    border-radius: 50em;
+}
+
+.bg-blue {
+    background-color: #68B6D9;
+    border-radius:20em 2em;
+}
+
+.bg-green {
+    background-color: #B0D989;
+}
+
+.bg-clear{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-item img{
+    margin: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+}
+
+footer a:link {
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #B0D989;
+}
+
+html{
+    scroll-padding-top: 4rem;
+}
+
+
+
+
+
+/*mobile*/
+@media screen and (max-width: 600px){
+    .bg-lightgreen {
+        border-radius: 50em;
+    }
+
+    .bg-blue {
+        border-radius: 50em;
+    }
+}
