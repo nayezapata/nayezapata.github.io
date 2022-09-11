@@ -1,0 +1,131 @@
+/************************************************************************
+**** MODIFICATION LOG ***
+*Original Author: Nayeli Zapata Reyes                                 
+*Date Created: 9/8/22                                      
+*Version: 1                                              
+*Date Last Modified:                              
+*Modified by:                                          
+*Modification log: 9/8/22 - modify landing page style.   
+9/8/22 - Create style for home page, contact page, and FAQ's page.
+
+************************************************************************/
+body{
+    background-image:url(../images/mountainsBackground.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.733);
+}
+main{
+    margin: 10px 50px;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.paragraph{
+    padding: 5px;
+    font-weight: bold;
+}
+h1, .navbar-brand{
+    font-family: 'Bad Script', cursive; 
+    font-weight: bold;
+}
+.navbar-brand, .nav-link, nav a:visited{
+    color: white;
+}
+.bg-green {
+    background-color: rgba(37, 81, 66, 0.897);   
+}
+.copyright{
+    font-size: small;
+    margin: 10px 0 0 0;
+}
+footer a:link, footer a:visited{
+    color: black; 
+}
+hr{
+    background-color:rgb(37, 81, 66, 0.897) ;
+}
+
+
+/********** Contact Page **********/
+#contactForm, #joinForm{
+    border: 1px solid rgb(37, 81, 66, 0.897);
+    padding: 15px;
+    border-radius: 10px;
+    margin:0 0 10px 0;
+}
+#joinForm{
+    margin-top: 5px;
+    padding: 30px;
+    background-color:rgb(37, 81, 66, 0.897) ; 
+}
+.newsparagraph{
+    margin-top: 60px;
+}
+input[type=text], textarea, input[type=email] {
+    padding: 12px; 
+    border: 1px solid rgb(37, 81, 66, 0.897);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.btn{
+    background-color: rgb(37, 81, 66, 0.897);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+.btn:hover{
+    font-weight: bolder;
+    color: white;
+}
+.btn_2{
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 4px;
+}
+.btn_2:hover{
+    font-weight: bolder;
+    background-color: rgba(117, 172, 153, 0.404);
+    color: white;
+}
+
+
+/********** FAQ's Page **********/
+.faqscontainer{
+    margin-top: 50px;
+}
+
+
+/********** Landing Page **********/
+.pictureCredit{
+    font-size: x-small;
+}
+.pictureCredit a:link, .pictureCredit a:visited{
+    color: black;
+}
+.pictureTitle{
+    font-weight: bold;
+}
+.img-thumbnail{
+    border-color: rgba(37, 81, 66, 0.897);
+    border-width: 10px;
+}
+.landing a:link, .landing a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
