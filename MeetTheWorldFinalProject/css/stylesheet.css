@@ -1,0 +1,176 @@
+/************************************************************************
+**** MODIFICATION LOG ***
+*Original Author: Nayeli Zapata Reyes                                 
+*Date Created: 9/8/22                                      
+*Version: 1                                              
+*Date Last Modified: 9/24/22.                             
+*Modified by:  Nayeli Zapata Reyes.                                         
+*Modification log: 9/8/22 - modify landing page style.   
+9/8/22 - Create style for home page, contact page, and FAQ's page.
+9/24/22 - Add FAQ's page style: .faqscontainer, .faqscontainer a:link, .faqscontainer a:visited,h5, h5.minus and .faqscontainer p.
+9/24/22 - Add Destinations page style: li, #main_image, .thumbnails, #cption.
+10/2/22 - Add contact page span style. 
+
+************************************************************************/
+body{
+    background-image:url(../images/mountainsBackground.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-size: .9em;
+}
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.870);
+}
+main{
+    margin: 5px 50px;
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.paragraph{
+    padding: 1px;
+    /* font-weight: bold; */
+}
+h1, .navbar-brand{
+    font-family: 'Bad Script', cursive; 
+    font-weight: bold;
+}
+.navbar-brand, .nav-link, nav a:visited{
+    color: white;
+}
+.bg-green {
+    background-color: rgba(37, 81, 66, 0.897);   
+}
+
+.copyright{
+    font-size: small;
+    margin: 5px 0 0 0;
+}
+footer a:link, footer a:visited{
+    color: black; 
+}
+hr{
+    background-color:rgb(37, 81, 66, 0.897) ;
+}
+
+
+/********** Contact Page **********/
+#contactForm, #joinForm{
+    border: 1px solid rgb(37, 81, 66, 0.897);
+    padding: 15px;
+    border-radius: 10px;
+    margin:0 0 10px 0;
+}
+#joinForm{
+    margin-top: 5px;
+    padding: 10px;
+    background-color:rgb(37, 81, 66, 0.897) ; 
+}
+.newsparagraph{
+    margin-top: 60px;
+}
+input[type=text], textarea, input[type=email] {
+    padding: 12px; 
+    border: 1px solid rgb(37, 81, 66, 0.897);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 16px;
+}
+.btn{
+    background-color: rgb(37, 81, 66, 0.897);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+.btn:hover{
+    font-weight: bolder;
+    color: white;
+}
+.btn_2{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.btn_2:hover{
+    font-weight: bolder;
+    background-color: rgba(117, 172, 153, 0.404);
+    color: white;
+}
+
+span{
+    color: red;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+/********** FAQ's Page **********/
+.faqscontainer{
+    margin-top: 50px;
+}
+.faqscontainer a:link, .faqscontainer a:visited{
+    color: black;
+}
+h6 {
+    background: url(../images/plus.png) no-repeat left center;
+    padding-left: 30px;
+}
+h6.minus {
+    background: url(../images/minus.png) no-repeat left center;
+}
+.faqscontainer p{
+    display: none;
+}
+#contactLink a:link, #contactLink a:visited{
+    color: black;
+    text-decoration: underline;
+}
+
+
+/********** Landing Page **********/
+.pictureCredit{
+    font-size: x-small;
+}
+.pictureCredit a:link, .pictureCredit a:visited{
+    color: black;
+}
+.pictureTitle{
+    font-weight: bold;
+}
+.img-thumbnail{
+    border-color: rgba(37, 81, 66, 0.897);
+    border-width: 10px;
+}
+.landing a:link, .landing a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/********** Destinations Page **********/
+li{
+    display:inline-flex;
+}
+
+#main_image{
+    width: 800px;
+    height: 400px;
+}
+
+.thumbnails{
+    margin: 3px;
+    height: 150px;
+    width: 150px;
+}
+
+#caption{
+    text-align: center;
+}
+
+
