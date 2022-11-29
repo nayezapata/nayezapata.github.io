@@ -1,0 +1,322 @@
+<!--------------------------------------------------------------------------------------------------------------
+	*** MODIFICATION LOG ***
+	#Original Author: Nayeli Zapata Reyes.
+	#Date Created: 11/12/22
+	#Version: 1
+	#Date Last Modified: 
+	#Modified by:Nayeli Zapata Reyes.
+	#Modification log: 11/12/22 Created index.html
+--------------------------------------------------------------------------------------------------------------->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Taste From Mexico</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+    crossorigin="anonymous">
+
+    <!--JavaScript bundle  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+        crossorigin="anonymous">
+    </script>
+
+    <!-- stylesheet -->
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <section class=" container-fluid px-5 pt-3 mx-5 text-center mx-auto grad mh-100" id="animation">
+        <h1 class="display-1 p-3 mb-3 mt-1">A Taste From Mexico</h1>
+
+        <!-- Carousel -->
+        <div id="carouselIndicators" class="carousel slide pb-5" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner imagec">
+                <div class="carousel-item active ">
+                    <a href="#dishes"> <img src="images/Pozole.png" alt="Pozole" class="d-block   img-fluid rounded-5 mx-auto">
+                    <p class="carousel-caption cap"> Popular Dishes</p></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#veverages"> <img src="images/horchata.png" alt="Horchata" class="d-block img-fluid rounded-5 mx-auto">
+                    <p class="carousel-caption cap"> Something To Drink</p></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#drinks"> <img src="images/pulque.png" alt="Pulque" class="d-block img-fluid rounded-5 mx-auto">
+                    <p class="carousel-caption cap"> Get Happy Drinks</p></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#desserts"><img src="images/arrozconleche.png" alt="Arroz Con Leche" class="d-block img-fluid rounded-5 mx-auto">
+                    <p class="carousel-caption cap"> Desserts</p></a> 
+                </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <p class=" mx-auto pb-5 my-0 text-body lead container">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, eaque nemo vitae saepe expedita dicta voluptatum commodi odit qui explicabo, 
+            rerum adipisci non inventore iure et. Obcaecati quidem labore tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Praesentium ipsam officiis veniam nostrum! Cumque illum omnis dignissimos aliquam perspiciatis id cupiditate, fugiat in. 
+            Et ab deserunt eligendi ullam eaque laudantium
+        </p>
+    </section>
+
+    <nav class="navbar navbar-expand-sm sticky-top justify-content-end bg-success navbar-dark">
+        <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse"   
+            data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <div class="navbar-nav ">           
+                <li class="nav-item p-1"><a class="nav-link " href="#dishes">Popular Dishes</a></li>
+                <li class="nav-item p-1"><a class="nav-link " href="#veverages">Something To Drink</a></li>
+                <li class="nav-item p-1"><a class="nav-link " href="#drinks">Get Happy Drinks</a></li>
+                <li class="nav-item p-1"><a class="nav-link " href="#desserts">Desserts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="dishes" class="mx-auto py-5 my-5 mh-100" >
+        <h2 class="display-5 text-center p-3"> Popular Dishes</h2>
+        <p class="lead text-center container">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae repellat consequuntur at laboriosam id! Vero, incidunt. 
+            Commodi rem fuga tempora nemo, quo dolor, saepe repellat aliquam labore optio numquam?
+        </p>
+        <div class="row text-center mx-auto ">
+            <div class="col">
+                <h4 class="p-2 text-danger">Tamales</h4>
+                <figure class="py-4">
+                    <img src="images/tamales.png" alt="A plate full of tamales" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+            <div class="col">
+                <h4 class="p-2 text-danger">Mole</h4>
+                <figure class="py-4">
+                    <img src="images/mole.jpeg" alt="A plate with mole poblano" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+            <div class="col ">
+                <h4 class="p-2 text-danger">Pozole</h4>
+                <figure class="py-4">
+                    <img src="images/Pozole.png" alt="A plate with pozole" class="img-fluid mx-auto d-block rounded-2">
+                </figure>           
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+            <div class="col ">
+                <h4 class="p-2 text-danger">Enchiladas</h4>
+                <figure class="py-4">
+                    <img src="images/Enchiladas.png" alt="A plate with enchiladas" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="veverages" class="mx-auto py-5 my-5 mh-100" > 
+        <h2 class="display-5 text-center p-3 "> Something To Drink</h2>
+        <p class="lead text-center container">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae repellat consequuntur at laboriosam id! Vero, incidunt. 
+            Commodi rem fuga tempora nemo, quo dolor, saepe repellat aliquam labore optio numquam?
+        </p>
+        <div class="row text-center mx-auto">
+            <div class="col">
+                <h4 class="p-2 text-danger">Champurrado</h4>
+                <figure class="py-4">
+                    <img src="images/Champurrado.png" alt="Cup with Champurrado" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+            <div class="col">
+                <h4 class="p-2 text-danger">Ponche</h4>
+                <figure class="py-4">
+                    <img src="images/ponche.png" alt="Cup with ponche" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+            <div class="col">
+                <h4 class="p-2 text-danger">Atole Blanco</h4>
+                <figure class="py-4">
+                    <img src="images/atoleblanco.png" alt="Cup with atole blanco" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+            <div class="col">
+                <h4 class="p-2 text-danger">Horchata</h4>
+                <figure class="py-4">
+                    <img src="images/horchata.png" alt="Cup with horchata" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="drinks" class="mx-auto py-5 my-5 mh-100" >
+        <h2 class="display-5 text-center p-3"> Get Happy Drinks</h2>
+        <p class="lead text-center container">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae repellat consequuntur at laboriosam id! Vero, incidunt. 
+            Commodi rem fuga tempora nemo, quo dolor, saepe repellat aliquam labore optio numquam?
+        </p>
+        <div class="row text-center mx-auto">
+            <div class="col">
+                <h4 class="p-2 text-danger">Mezcal</h4>
+                <figure class="py-4">
+                    <img src="images/Mezcal.png" alt="Mezcal bottle on agave plant " class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+            <div class="col">
+                <h4 class="p-2 text-danger">Pulque</h4>
+                <figure class="py-4">
+                    <img src="images/pulque.png" alt="Cup with horchata" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+            <div class="col">
+                <h4 class="p-2 text-danger">Micheladas</h4>
+                <figure class="py-4">
+                    <img src="images/michelada.png" alt="Michelada drink" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="desserts" class="mx-auto py-5 my-5 mh-100">
+        <h2 class="display-5 text-center p-3">Desserts</h2>
+        <p class="lead text-center container">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae repellat consequuntur at laboriosam id! Vero, incidunt. 
+            Commodi rem fuga tempora nemo, quo dolor, saepe repellat aliquam labore optio numquam?
+        </p>
+        <div class="row text-center mx-auto">
+            <div class="col">
+                <h4 class="p-2 text-danger">Arroz Con Leche</h4>
+                <figure class="py-4">
+                    <img src="images/arrozconleche.png" alt="a cup of arroz con leche" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+            <div class="col ">
+                <h4 class="p-2 text-danger">Buñuelos</h4>
+                <figure class="py-4">
+                    <img src="images/bunuelos.png" alt="stack of buñuelos" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+            <div class="col">
+                <h4 class="p-2 text-danger">Flan</h4>
+                <figure class="py-4">
+                    <img src="images/flan.png" alt="a plate with flan dessert" class="img-fluid mx-auto d-block rounded-2">
+                </figure>
+                <p class="text-body p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                    saepe qui aspernatur. Laborum quam quas quisquam.
+                </p>
+            </div>
+            <div class="col">
+                <h4 class="p-2 text-danger">Conchas</h4>
+                <figure class="py-4">
+                    <img src="images/conchas.png" alt="a plate conchas bread" class="img-fluid mx-auto d-block rounded-2">
+                    <p class="text-body p-4">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Aperiam vero eos illum iusto ipsum illo quaerat molestiae ratione commodi nobis nihil deserunt laborum,
+                        saepe qui aspernatur. Laborum quam quas quisquam.
+                    </p>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid grad mx-auto py-5 mx-5 mh-100 text-center">
+        <div class="p-2">
+            <h5>Follow Us For More Recipes</h5>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/footerFacebook.png" alt="facebook black logo"></a> &nbsp;
+            <a href="https://twitter.com/" target="_blank"><img src="images/footerTwitter.png" alt="twitter black logo"></a> &nbsp;
+            <a href="https://www.snapchat.com/" target="_blank"><img src="images/footerSnapchat.png" alt="snapchat black logo"></a> &nbsp;
+        </div>
+        &copy;A Taste From Mexico
+    </footer>
+    <!-- jQuery CDN -->
+    <script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous">
+    </script>
+
+    <!--js file -->
+    <script src="animations.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/************************************************************************
+**** MODIFICATION LOG ***
+*Original Author: Nayeli Zapata Reyes                                 
+*Date Created: 11/12/22.                                     
+*Version: 1                                              
+*Date Last Modified: 11/12/22                             
+*Modified by:  Nayeli Zapata Reyes.                                         
+*Modification log: 11/12/22 Created stylesheet.  
+************************************************************************/
+
+.grad {
+    background-image: linear-gradient(to right, rgb(25, 135, 84), white, rgb(216, 54, 54)); 
+}
+
+body {
+    background-color: rgba(250, 235, 215, 0.425);
+}
+
+figure img{
+    width: 300px;
+}
+
+img:hover, h4:hover {
+  transform: scale(1.5); 
+} 
+
+.imagec img{
+    width: 600px;
+}
+
+h4 {
+    text-shadow: 5px 5px 10px rgb(216, 54, 54);
+    letter-spacing: 1px;
+}
+
+.cap {
+    font-size:xx-large;
+    font-weight: bold;
+    padding: 0;
+    text-shadow: 5px 5px 10px rgb(179, 173, 173);
+    letter-spacing:2px ;
+    
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+}
+
