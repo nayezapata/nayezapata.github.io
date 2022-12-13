@@ -1,0 +1,53 @@
+
+body{
+    background: linear-gradient(to bottom right, rgba(62, 169, 177, 0.747),  rgb(183, 231, 223), rgba(62, 169, 177, 0.747));
+    background-repeat: no-repeat; 
+    font-family: 'Quicksand', sans-serif, serif;
+    letter-spacing: 1px;
+    background-color: whitesmoke;
+}
+
+h1{
+    font-family:'shadows Into Light', cursive, Arial, Helvetica, sans-serif; 
+}
+
+a:link, a:visited{
+    color: black;
+}
+
+a:hover{
+    color: rgb(22, 139, 139);
+}
+
+.animate{
+    background:rgba(183, 231, 223, 0.068);
+    
+}
+
+
+.animate:hover{
+    transform: scale(1.2); 
+    text-decoration: none;
+}
+
+.outer-wrapper{
+    background:rgba(245, 245, 245, 0.021);
+    width:75%; 
+    margin:auto;
+} 
+
+span{
+    color: red;
+}
+
+nav, footer{
+    background: rgba(62, 169, 177, 0.137);
+}
+
+
+
+
+
+
+
+
